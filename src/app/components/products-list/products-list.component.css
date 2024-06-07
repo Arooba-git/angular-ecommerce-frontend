@@ -1,0 +1,45 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-container:hover {
+  background: lightgray;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-body {
+  flex-grow: 1;
+}
+
+.card-footer .btn {
+  width: 100%;
+  border-color: ghostwhite !important;
+  color: darkslategray;
+  background: linear-gradient(194deg, #7dc3f2, #c6ebff, transparent);
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.pagination-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.pagination-numbers {
+  display: flex;
+  justify-content: flex-end;
+}
